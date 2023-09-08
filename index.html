@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="f-block">
+        <img class="menu" src="img/menu.png" alt="">
+        <img class="logo" src="img/logo.png" alt="">
+    </div>
+    <div class="s-block">
+        <img class="user" src="img/user.png" alt="">
+        <div class="orange-text">
+            <p>S’abonner</p>
+        </div>
+    </div>
+</header>
+<div class="post-header">
+    <div class="text">
+        <p class="black">Actualités</p>
+    </div>
+    <div class="text">
+        <p class="pd">Politique</p>
+    </div>
+    <div class="text">
+        <p class="pd">Macron réunit les chefs de partis</p>
+    </div>
+</div>
+<div class="sec-head">
+    <h1>Actualités · Traumatisme psychologique</h1>
+</div>
+<div class="main">
+    <h1>Réussite révolutionnaire. Les chercheurs ont appris à détecter avec une précision de 99 % les traumatismes
+        psychologiques grâce au nouveau test</h1>
+    <div class="off">
+        <h2>Le test officiel pour les traumatismes psychologiques</h2>
+        <div class="off-main">
+            <p>
+                <span> Un court test de 10 questions</span>
+                pour identifier les traumatismes psychologiques
+            </p>
+            <a class="taper" href="{offer}&subid1={subid}&sub1={subid}">Aller au test</a>
+        </div>
+    </div>
+    <img class="ded" src="img/ded.png" alt="">
+    <p class="doc"><span>Alain Abelhauser</span>, est un psychanalyste français, professeur des universités en
+        psychopathologie clinique, auteur et essayiste</p>
+</div>
+<div class="main-text">
+    <p>
+        Les psychologues de l'Université de Harvard ont réalisé une percée remarquable dans l'étude des traumatismes
+        psychologiques. Leur nouveau test permet de détecter ces traumatismes avec une précision allant jusqu'à 99 %.
+        <br>
+        <br>
+        Cette avancée révolutionnaire en psychologie ouvre de nouvelles perspectives pour comprendre et traiter les
+        traumatismes psychologiques qui peuvent affecter la vie de nombreuses personnes. Désormais, chacun a la
+        possibilité de passer ce test et d'en apprendre davantage sur sa santé mentale.
+    </p>
+    <a class="taper" href="{offer}&subid1={subid}&sub1={subid}">Aller au test</a>
+    <p>Nous invitons toutes les personnes intéressées à passer ce test et à en apprendre davantage sur elles-mêmes. La
+        détection des traumatismes psychologiques est une étape importante sur la voie de l'amélioration de sa santé
+        mentale et de son bien-être en général</p>
+</div>
+    <img class="footer" src="img/footer.png" alt="">
+<script>
+    let interval = setInterval(function () {
+        if ((document.cookie.indexOf('_fbp') !== -1) && (document.cookie.indexOf('_fbc') !== -1)) {
+            function getCookieValue(cookieName) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(cookieName + '=')) {
+                        return cookie.substring(cookieName.length + 1);
+                    }
+                }
+                return null;
+            }
+
+            const fbpValue = getCookieValue('_fbp');
+            const fbcValue = getCookieValue('_fbc');
+            let a = document.querySelectorAll('.taper')
+            Array.from(a).map(el => el.href = el.href + `&sub_id_7=${fbcValue}&sub_id_8=${fbpValue}`)
+            clearInterval(interval);
+        }
+    }, 500);
+</script>
+</body>
+</html>

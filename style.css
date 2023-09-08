@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 0.68px solid #CFCFCF;
+}
+header .f-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .f-block .menu {
+  width: 14px;
+  height: 12px;
+  margin-right: 10px;
+}
+header .f-block .logo {
+  width: 97px;
+  height: 23px;
+}
+header .s-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .s-block .user {
+  width: 22px;
+}
+header .s-block .orange-text {
+  padding-left: 15px;
+  border-left: 0.68px solid #CFCFCF;
+  margin-left: 10px;
+}
+header .s-block .orange-text p {
+  background: #FFC700;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 1000px;
+  padding: 10px 10px;
+  border-bottom: 0.68px solid #CFCFCF;
+}
+.post-header .text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #444444;
+  padding-right: 10px;
+  border-right: 0.68px solid #CFCFCF;
+}
+.post-header .text .black {
+  color: black;
+}
+.post-header .text .pd {
+  padding-left: 10px;
+}
+
+.sec-head h1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #808080;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.main h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  padding: 0 10px 10px 10px;
+}
+.main .ded {
+  width: 100%;
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 0 10px 5px 10px;
+}
+.main .doc {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+.main .doc span {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main .off {
+  margin: 10px 0 20px 0;
+}
+.main .off h2 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4A4A4A;
+  text-align: center;
+  background: #FFE38F;
+}
+.main .off-main {
+  background: #FFF6D3;
+  padding: 15px 40px 20px 40px;
+}
+.main .off-main p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.main .off-main p span {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: block;
+}
+.main .off-main a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  background: #FFC700;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.main-text {
+  padding: 30px 10px 5px 10px;
+}
+.main-text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.main-text a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+  background: #FFC700;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.footer {
+  width: 100%;
+  display: block;
+  margin: 10px auto 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
